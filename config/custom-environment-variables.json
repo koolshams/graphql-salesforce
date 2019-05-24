@@ -1,0 +1,10 @@
+{
+  "salesforce": {
+    "clientId": "SALESFORCE_CLIENT_ID",
+    "clientSecret": "SALESFORCE_CLIENT_SECRET",
+    "redirectUri": "SALESFORCE_REDIRECT_URI",
+    "environment": "SALESFORCE_ENVIRONMENT",
+    "username": "SALESFORCE_USERNAME",
+    "password": "SALESFORCE_PASSWORD"
+  }
+}

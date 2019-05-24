@@ -1,0 +1,37 @@
+{
+  "name": "gq1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w ./src/ -e ts,js --exec 'ts-node' src/server",
+    "build": "tsc",
+    "start": "node dist/server",
+    "lint": "tslint --project tsconfig.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint:fix": "tslint --project tsconfig.json --fix",
+    "format": "prettier"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.5.0",
+    "config": "^3.1.0",
+    "graphql": "^14.3.0",
+    "nforce": "^1.12.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.34",
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5"
+  }
+}

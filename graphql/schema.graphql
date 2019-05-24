@@ -1,0 +1,12 @@
+type Account {
+  id: String
+  lang: String
+  countryCode: String
+  hasNewsletter: String
+  phoneNumber: String
+  countryIsoCode: String
+}
+
+type Query {
+  getAccount(id: String): Account
+}

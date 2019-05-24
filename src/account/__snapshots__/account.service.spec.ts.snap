@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapper: accountMapper 1`] = `
+Object {
+  "countryCode": undefined,
+  "countryIsoCode": undefined,
+  "hasNewsletter": undefined,
+  "id": undefined,
+  "lang": undefined,
+  "phoneNumber": undefined,
+}
+`;
